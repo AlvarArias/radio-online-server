@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Music Web App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">     
+    </head>
+    <body>
+        <div class="box">
+            <div class="barras">
+                <img class="item-radio" src="img/Barras.png" alt="barras">
+                <canvas id="canvas"></canvas>
+            </div>
+
+            <div class="radio-svt">
+                <div class="logo">
+                    <img class="logo-radio" src="img/logo-radio.png" alt="logo-radio">
+                </div>
+                <div class="controles">
+                   <!--<img class="controles-radio" src="img/Botones.png" alt="botones">-->
+                   <audio crossorigin="anonymous" id="player" src="http://sverigesradio.se/topsy/direkt/srapi/2562.mp3"></audio>
+                        <div class="new-control"> 
+                            <button class="btn" onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
+                            <button id="my-btn-play" class="btn-play" onclick="play_pause()"></button> 
+                            <button class="btn" onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+                        </div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <canvas id="canvas"></canvas>
+    </body>
+    <script src="myCode.js"></script>
+    
+</html>

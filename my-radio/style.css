@@ -1,0 +1,106 @@
+.diva {
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: bisque;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.box {
+margin-left: auto;
+margin-right: auto;    
+background-image: url(img/Rectangle\ 1.png);
+height: 420px;
+width:675px;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.barras {
+height: 300px;
+width:380px;
+display: flex;
+flex-direction: column;
+align-items: center;
+/*background-color: aqua;*/
+}
+
+.radio-svt {
+height: 300px;
+width:220px;
+display: flex;
+flex-direction: column;
+}
+
+.item-radio {
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    /*background-color: blue;*/
+
+}
+
+.logo-radio {
+    padding-right: 20px;
+}
+
+.controles {
+    width: 200px;
+    height: 100px;
+    /*background-color: brown;*/
+
+}
+
+.controles-radio {
+    padding-top: 30px;
+
+}
+
+.btn-play {
+    background-image: url(img/But-Play.png);
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border-style: none;
+    background-repeat: none;
+}
+
+.btn {
+    background-image: url(img/Der.png);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border-style: none;
+    background-repeat: none;
+    color: #817B8C;
+}
+
+.new-control {
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 100px; 
+    width: 200px; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+#canvas {
+    height:50px;
+    width:250px;
+    background-color: transparent;
+    padding-bottom: 20px;
+    
+}
